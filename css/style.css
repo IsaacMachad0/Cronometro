@@ -1,0 +1,30 @@
+html{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: sans-serif;
+}
+.relogio {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px 20px;
+}
+.cronometro {
+    font-size: 60px;
+}
+button {
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pausado{
+    color: red;
+}
